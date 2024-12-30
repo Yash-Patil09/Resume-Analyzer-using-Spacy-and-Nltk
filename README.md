@@ -20,8 +20,8 @@ The Resume Analyzer is a Python application that processes resumes in `.txt` or 
 
 ```bash
 # 1. Clone the repository:
-git clone https://github.com/your-username/resume-analyzer.git
-cd resume-analyzer
+git clone https://github.com/Yash-Patil09/Resume-Analyzer-using-Spacy-and-Nltk.git
+
 
 # 2. Create a virtual environment:
 # On Linux/Mac:
