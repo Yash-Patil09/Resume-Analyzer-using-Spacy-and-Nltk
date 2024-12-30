@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    color: #2c3e50;
+}
+
+/* Container */
+.main-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Heading */
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* File Input */
+.file-input {
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+    border: 2px dashed #3498db;
+    border-radius: 8px;
+    background-color: #f5fafd;
+    color: #3498db;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.file-input:hover {
+    border-color: #2980b9;
+    color: #2980b9;
+}
+
+/* Button */
+.upload-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.upload-button:hover {
+    background-color: #2980b9;
+}
+
+/* Loading Text */
+#loading {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #e67e22;
+    display: none;
+}

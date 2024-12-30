@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Analyzer</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="upload-box">
+            <h1>Resume Analyzer</h1>
+            <p class="description">Upload your resume to analyze your skills and get personalized suggestions!</p>
+            <form id="resumeForm">
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required class="file-input">
+                <button type="submit" class="upload-button">Analyze Resume</button>
+            </form>
+            <div id="status" class="status-message"></div>
+        </div>
+    </div>
+    <script src="/static/scripts.js"></script>
+</body>
+</html>
