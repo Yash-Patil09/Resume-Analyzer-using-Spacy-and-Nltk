@@ -40,5 +40,5 @@ venv\Scripts\activate
 # 4. Install dependencies:
 pip install -r requirements.txt
 
-# 5. Run the Resume Analyzer:
-python analyze_resume.py --file path_to_resume_file
+# 5. Run the App (Main.py):
+python main.py
